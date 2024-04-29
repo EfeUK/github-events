@@ -15,7 +15,7 @@ on:
       - 'feat/**' # feat/new feat/new/button
       # developer-1
     paths-ignore:
-      - '.github/wprkflow/*' 
+      - '.github/workflow/*' 
 jobs:
   deploy:
     runs-on: ubuntu-latest
